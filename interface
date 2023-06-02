@@ -1,0 +1,29 @@
+Write a program to create interface A in this interface we have two method meth1 and
+meth2. Implements this interface in another class named MyClass.
+CODE:
+interface A
+{
+void meth1();
+void meth2();
+}
+class Myclass implements A
+{
+public void meth1()
+{
+System.out.println(&quot;Implementing meth1[]&quot;);
+}
+public void meth2()
+{
+System.out.println(&quot;Implementing meth2[]&quot;);
+}
+}
+class Main
+{
+public static void main(String[] args)
+{
+Myclass m = new Myclass();
+
+m.meth1();
+m.meth2();
+}
+}
